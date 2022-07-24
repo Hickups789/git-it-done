@@ -27,14 +27,22 @@
           <label class="form-label" for="username">Username</label>
           <input name="username" id="username" type="text" autofocus="true" class="from-input" />
           <button type="submit" class="btn">Get User</button>
-        </form>
+        </form>        
+      </div>
+      <div class="card">
+      <h3 class="card-header text-uppercase">Search By Topic</h3>
+      <div id="language-buttons" class="card-body">
+        <button id="data-language" class="btn">JavaScript</button>
+        <button id="data-language" class="btn">HTML</button>
+        <button id="data-language" class="btn">CSS</button>
+      </div>
       </div>
     </div>
 
     <div class="col-12 col-md-8">
       <h2 class="subtitle">Showing Repositories for: <span id="repo-search-term"></span></h2>
       <div id="repos-container" class="list-group">
-        
+
       </div>
     </div>
   </main>
